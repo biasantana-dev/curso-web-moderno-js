@@ -5,12 +5,37 @@
     <meta charset="UTF-8">
     <title>Anatomia CSS</title>
     <style>
-        /* ... */
+        .seletor {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+
+            /* multiplos valores */
+            border: 5px solid navy; /* shorthand property*/ 
+            font-family: Arial, Helvetica, sans-serif;
+            
+            /* funções */
+            width: calc(100% - 40px);
+            background-color: rgb(0, 147, 192)
+        }
+
+        /* Usando uma pseudo-classe */
+        .seletor:hover {
+            background-color: blueviolet;
+        }
+        
+        /* Usando um pseudo-elemento */
+        .seletor::first-letter {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+
     </style>
 </head>
 
 <body>
-    <div class="selector">Conteúdo</div>
+    <div class="seletor">Conteúdo</div>
 </body>
 
 </html>
