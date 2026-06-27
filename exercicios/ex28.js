@@ -3,7 +3,7 @@ function paresImpares(numerosVetor) {
    let qtdImpar = 0;
    for (let i = 0; i < numerosVetor.length; i++) {
       if (numerosVetor[i] % 2 === 0) {
-         qtdPar++
+         qtdPar++;
       } else {
          qtdImpar++;
       }
