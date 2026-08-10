@@ -14,4 +14,4 @@ function multiplicarMaiorQue5(vetor, multiplicador) {
 }
 
 console.log(multiplicarVetor(vetor, 4));
-console.log(multiplicarMaiorQue5(vetor, 10))
+console.log(multiplicarMaiorQue5(vetor, 10));
