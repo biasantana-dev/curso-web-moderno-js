@@ -1,0 +1,9 @@
+// uma factory retorna num novo objeto (nova instancia)
+module.exports = () => {
+   return {
+      valor: 1,
+      inc() {
+         this.valor++
+      }
+   }
+}
